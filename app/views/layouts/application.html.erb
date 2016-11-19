@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Kitayo</title>
+    <meta name="viewport"
+    content="width=device-width
+    , initial-scale=1.0
+    , maximum-scale=1.0
+    , user-scalable=no">
+    <%= csrf_meta_tags %>
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <meta charset="utf-8">
+    <meta http-equiv="Refresh" content=";URL=http://0.0.0.0:3000/pages/page1">
+
+  </head>
+
+  <body>
+
+
+<% if !defined?(@hide_flg) || !@hide_flg %>
+    <div class="header">
+      <%= image_tag 'kitayo_logo.png', :class => "header_logo" %>
+    </div>
+<% end %>
+    <%= yield %>
+<% if !defined?(@hide_flg) || !@hide_flg %>
+    <div class="footer">
+      <%= image_tag 'logo.png', :class => "footer_logo" %>
+    </div>
+<% end %>
+  </body>
+</html>

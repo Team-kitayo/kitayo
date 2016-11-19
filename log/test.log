@@ -1,0 +1,64 @@
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------
+PagesControllerTest: test_should_get_visit
+------------------------------------------
+Started GET "/pages/visit" for 127.0.0.1 at 2016-11-19 15:27:23 +0900
+Processing by PagesController#visit as HTML
+  Rendering pages/visit.html.erb within layouts/application
+  Rendered pages/_page2.html.erb (731.9ms)
+  Rendered pages/visit.html.erb within layouts/application (734.0ms)
+Completed 500 Internal Server Error in 761ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------
+PagesControllerTest: test_should_get_inter
+------------------------------------------
+Started GET "/pages/inter" for 127.0.0.1 at 2016-11-19 15:27:23 +0900
+Processing by PagesController#inter as HTML
+  Rendering pages/inter.html.erb within layouts/application
+  Rendered pages/inter.html.erb within layouts/application (1.9ms)
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-------------------------------------------
+PagesControllerTest: test_should_get_others
+-------------------------------------------
+Started GET "/pages/others" for 127.0.0.1 at 2016-11-19 15:27:23 +0900
+Processing by PagesController#others as HTML
+  Rendering pages/others.html.erb within layouts/application
+  Rendered pages/_page4.html.erb (15.2ms)
+  Rendered pages/others.html.erb within layouts/application (17.4ms)
+Completed 500 Internal Server Error in 434ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------
+PagesControllerTest: test_should_get_inter
+------------------------------------------
+Started GET "/pages/inter" for 127.0.0.1 at 2016-11-19 15:29:31 +0900
+Processing by PagesController#inter as HTML
+  Rendering pages/inter.html.erb within layouts/application
+  Rendered pages/inter.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 163ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-------------------------------------------
+PagesControllerTest: test_should_get_others
+-------------------------------------------
+Started GET "/pages/others" for 127.0.0.1 at 2016-11-19 15:29:32 +0900
+Processing by PagesController#others as HTML
+  Rendering pages/others.html.erb within layouts/application
+  Rendered pages/_page4.html.erb (54.3ms)
+  Rendered pages/others.html.erb within layouts/application (56.6ms)
+Completed 500 Internal Server Error in 421ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------
+PagesControllerTest: test_should_get_visit
+------------------------------------------
+Started GET "/pages/visit" for 127.0.0.1 at 2016-11-19 15:29:32 +0900
+Processing by PagesController#visit as HTML
+  Rendering pages/visit.html.erb within layouts/application
+  Rendered pages/_page2.html.erb (15.1ms)
+  Rendered pages/visit.html.erb within layouts/application (17.3ms)
+Completed 500 Internal Server Error in 22ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
