@@ -10118,3 +10118,18 @@ puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
   Rendering /Users/shota_akama/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
   Rendered /Users/shota_akama/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (67.0ms)
   Rendered /Users/shota_akama/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (864.1ms)
+Started GET "/pages/page1" for 127.0.0.1 at 2016-11-20 17:20:20 +0900
+Processing by PagesController#page1 as HTML
+  Rendering pages/page1.html.erb within layouts/application
+  Rendered pages/page1.html.erb within layouts/application (1476.7ms)
+Completed 200 OK in 1969ms (Views: 1938.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/inter" for 127.0.0.1 at 2016-11-20 17:20:47 +0900
+Processing by PagesController#inter as HTML
+  Rendering pages/inter.html.erb within layouts/application
+  Rendered pages/_page4.html.erb (12.3ms)
+  Rendered pages/inter.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 1124ms (Views: 164.2ms | ActiveRecord: 0.0ms)
+
+

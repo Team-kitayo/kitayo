@@ -55,6 +55,11 @@ p.jp {color: blue;
 .button {
   padding-top: 137.6px;
   }
+  
+.button2 {
+  padding-top: 50px;
+  }
+
 
 /* 画像 */
 
@@ -76,41 +81,39 @@ img.link {
 img.link2 {
   margin: 25px;
   width: 15%;
-}
-.button2 {
-  padding-top: 50px;
   }
 
-  #content {
-      position: relative;
-      width:1000px;
-      height:250px;
-      overflow:hidden;
-      padding-top: 0px;
-      /*background:#eee;*/
+img.welcome {
+  height: 60%;
+  width:60%;
+  padding-left: 200px;
   }
-  #rect {
-      position: absolute;
-      left:-50px;
-      top:50px;
-      /*background:#87d3ff;*/
-      width:50px;
-      padding:60px 0px;
-      text-align:center;
-      /*color:#fff;*/
-  }
-  img.welcome {
-    height: 60%;
-    width:60%;
-    padding-left: 200px;
 
+img.test {
+  height: 100%;
+  width:100px;
   }
-  img.test {
-    height: 100%;
-    width:100px;
+
+/* *.js */
+
+#content {
+    position: relative;
+    width:1000px;
+    height:250px;
+    overflow:hidden;
+    padding-top: 0px;
+    /*background:#eee;*/
     }
-
-
+#rect {
+    position: absolute;
+    left:-50px;
+    top:50px;
+    /*background:#87d3ff;*/
+    width:50px;
+    padding:60px 0px;
+    text-align:center;
+    /*color:#fff;*/
+    }
 
 
 /*
