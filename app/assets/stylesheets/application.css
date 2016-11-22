@@ -41,14 +41,14 @@ p {
   }
 
 p {
-  color: #003399;
-  font-family:  "Meiryo","Hiragino Kaku Gothic Pro","HiraKakuPro-W3","MS PGothic",sans-serif;
+  color: #EEEEEE;
+  font-family:  "Meiryo","Hiragino Kaku Gothic Pro","arial","HiraKakuPro-W3","MS PGothic", sans-serif;
   font-size: 22px;
   text-align : center;
   }
 p.jp {
-  color: #003399;
-  font-family:  "Meiryo","Hiragino Kaku Gothic Pro","HiraKakuPro-W3","MS PGothic",sans-serif;
+  color: #EEEEEE;
+  font-family:  "Meiryo","Hiragino Kaku Gothic Pro","arial","HiraKakuPro-W3","MS PGothic",sans-serif;
   font-size: 18px;
   text-align : center;
   }
