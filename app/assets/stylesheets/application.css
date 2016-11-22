@@ -41,14 +41,16 @@ p {
   }
 
 p {
-  color: white;
-
-  font-size: 24px;
+  color: #003399;
+  font-family:  "Meiryo","Hiragino Kaku Gothic Pro","HiraKakuPro-W3","MS PGothic",sans-serif;
+  font-size: 22px;
   text-align : center;
   }
-
-p.jp {color: blue;
-  font-size: 16px;
+p.jp {
+  color: #003399;
+  font-family:  "Meiryo","Hiragino Kaku Gothic Pro","HiraKakuPro-W3","MS PGothic",sans-serif;
+  font-size: 18px;
+  text-align : center;
   }
 
 /*  ボタン表示部  */
@@ -59,7 +61,7 @@ p.jp {color: blue;
   }
 
 .button2 {
-  padding-top: 50px;
+  padding-top: 10px;
   padding-bottom: 100px;
   }
 
