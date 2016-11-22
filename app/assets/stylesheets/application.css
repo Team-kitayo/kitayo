@@ -1,7 +1,7 @@
 html, body, header, footer, main, button, p, img {
   margin: 0;
   padding: 0;
-}
+  }
 
 html, body {
   width:100%;
@@ -15,7 +15,7 @@ html, body {
 .header {
   height: 140px;
   text-align: center;
-}
+  }
 
 /* フッター */
 
@@ -55,7 +55,7 @@ p.jp {color: blue;
 .button {
   padding-top: 137.6px;
   }
-  
+
 .button2 {
   padding-top: 50px;
   }
@@ -97,24 +97,23 @@ img.test {
 /* *.js */
 
 #content {
-    position: relative;
-    width:1000px;
-    height:250px;
-    overflow:hidden;
-    padding-top: 0px;
-    /*background:#eee;*/
-    }
+  position: relative;
+  width:1000px;
+  height:250px;
+  overflow:hidden;
+  padding-top: 0px;
+  /*background:#eee;*/
+  }
 #rect {
-    position: absolute;
-    left:-50px;
-    top:50px;
-    /*background:#87d3ff;*/
-    width:50px;
-    padding:60px 0px;
-    text-align:center;
-    /*color:#fff;*/
-    }
-
+  position: absolute;
+  left:-50px;
+  top:50px;
+  /*background:#87d3ff;*/
+  width:50px;
+  padding:60px 0px;
+  text-align:center;
+  /*color:#fff;*/
+  }
 
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
