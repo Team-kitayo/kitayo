@@ -8,7 +8,7 @@ class PagesController < ApplicationController
   def others
     # Slack.chat_postMessage text: "------------------------------\n\n\n\n\n \"Others\" is coming \n\n\n\n\n ------------------------------", username: "Kitayo_Notifier", channel: "#kitayo"
     notifier = Slack::Notifier.new('https://hooks.slack.com/services/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')
-    notifier.ping('------------------------------\n\n\n\n\n \"Others\" is coming \n\n\n\n\n ------------------------------", username: "Kitayo_Notifier", channel: "#kitayo')
+    notifier.ping(------------------------------\n\n\n\n\n \"Others\" is coming \n\n\n\n\n ------------------------------)
     @hide_flg = true
   end
 
