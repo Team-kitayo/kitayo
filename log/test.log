@@ -62,3 +62,36 @@ Processing by PagesController#visit as HTML
   Rendered pages/visit.html.erb within layouts/application (17.3ms)
 Completed 500 Internal Server Error in 22ms (ActiveRecord: 0.0ms)
   [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------
+PagesControllerTest: test_should_get_visit
+------------------------------------------
+Started GET "/pages/visit" for 127.0.0.1 at 2016-11-22 21:45:50 +0900
+Processing by PagesController#visit as HTML
+  Rendering pages/visit.html.erb within layouts/application
+  Rendered pages/_page2.html.erb (747.6ms)
+  Rendered pages/visit.html.erb within layouts/application (750.9ms)
+Completed 500 Internal Server Error in 771ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-------------------------------------------
+PagesControllerTest: test_should_get_others
+-------------------------------------------
+Started GET "/pages/others" for 127.0.0.1 at 2016-11-22 21:45:51 +0900
+Processing by PagesController#others as HTML
+  Rendering pages/others.html.erb within layouts/application
+  Rendered pages/_page4.html.erb (11.1ms)
+  Rendered pages/others.html.erb within layouts/application (13.5ms)
+Completed 500 Internal Server Error in 344ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------
+PagesControllerTest: test_should_get_inter
+------------------------------------------
+Started GET "/pages/inter" for 127.0.0.1 at 2016-11-22 21:45:51 +0900
+Processing by PagesController#inter as HTML
+  Rendering pages/inter.html.erb within layouts/application
+  Rendered pages/_page4.html.erb (8.6ms)
+  Rendered pages/inter.html.erb within layouts/application (10.2ms)
+Completed 500 Internal Server Error in 1081ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m

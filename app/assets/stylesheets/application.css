@@ -41,7 +41,8 @@ p {
   }
 
 p {
-  color: blue;
+  color: #003399;
+
   font-size: 24px;
   text-align : center;
   }
@@ -54,10 +55,12 @@ p.jp {color: blue;
 
 .button {
   padding-top: 137.6px;
+  padding-bottom: 100px;
   }
 
 .button2 {
   padding-top: 50px;
+  padding-bottom: 100px;
   }
 
 

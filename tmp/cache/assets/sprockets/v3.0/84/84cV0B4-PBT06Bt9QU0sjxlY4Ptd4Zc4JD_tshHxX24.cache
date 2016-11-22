@@ -1,3 +1,8 @@
 [o:Set:
+<<<<<<< Updated upstream
 @hash}
 I"environment-version:ETTI"environment-paths;TTI"rails-env;TTI"2processors:type=image/png&file_type=image/png;TTI"5file-digest://app/assets/images/others%20(1).png;TTF
+=======
+@hash{
+I"environment-version:ETTI"environment-paths;TTI"rails-env;TTI"2processors:type=image/png&file_type=image/png;TTI"5file-digest://app/assets/images/others%20(1).png;TT
+>>>>>>> Stashed changes
