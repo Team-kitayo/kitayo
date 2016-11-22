@@ -43,13 +43,10 @@ p {
 p {
   color: #003399;
   font-family:  "Meiryo","Hiragino Kaku Gothic Pro","HiraKakuPro-W3","MS PGothic",sans-serif;
-  font-size: 24px;
+  font-size: 22px;
   text-align : center;
   }
 
-p.jp {color: blue;
-  font-size: 16px;
-  }
 
 /*  ボタン表示部  */
 
