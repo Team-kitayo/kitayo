@@ -27,7 +27,7 @@ class PagesController < ApplicationController
 
   def call
    @hide_flg = true
-   @name = params[:name]
+   @name = params[:n]
   #  Slack.chat_postMessage text: "------------------------------\n\n\n\n\n @#{@name} \n \"appointment\" is coming \n\n\n\n\n ------------------------------", username: "Kitayo_Notifier", channel: "#kitayo"
   end
 end
