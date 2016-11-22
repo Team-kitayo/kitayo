@@ -93,6 +93,10 @@ img.link2 {
   width:60%;
   padding-left: 200px;
   }*/
+td{
+  padding:0;
+}
+
 
 img.test {
   height: 100%;
