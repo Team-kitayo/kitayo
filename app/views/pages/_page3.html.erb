@@ -2,10 +2,20 @@
   <p>You have an appointment with ....</p>
   <p class="jp">担当者をお選びください</p>
   <div class="button2">
-    <%= link_to image_tag('Saito.png', :class => "link2"),'call', name: 'Saito' %>
-    <%= link_to image_tag('Takagi.png', :class => "link2"), 'call', name: 'Takagi' %>
-    <%= link_to image_tag('Shimura.png', :class => "link2"), 'call', name: 'Shimura' %>
-    <%= link_to image_tag('Takahashi.png', :class => "link2"),'call', name: 'Takahashi' %>
+    <table>
+    <tr>
+    <td><%= link_to image_tag('Saito.png', :class => "link2"),'call', name: 'Saito' %></td>
+    <td><%= link_to image_tag('Takagi.png', :class => "link2"), 'call', name: 'Takagi' %></td>
+    <td><%= link_to image_tag('Shimura.png', :class => "link2"), 'call', name: 'Shimura' %></td>
+    <td><%= link_to image_tag('Takahashi.png', :class => "link2"),'call', name: 'Takahashi' %></td>
+    </tr>
+    <tr>
+    <td>Saito</td>
+    <td>Takagi</td>
+    <td>Shimura</td>
+    <td>Takahashi</td>
+    </tr>
+  </table>
     <%= link_to image_tag('Tokuta.png', :class => "link2"), 'call', name: 'Tokuta' %>
     <%= link_to image_tag('Kikuchi.png', :class => "link2"), 'call', name: 'Kikuchi' %>
     <%= link_to image_tag('Matsuura.png', :class => "link2"),'call', name: 'matsuura' %>
