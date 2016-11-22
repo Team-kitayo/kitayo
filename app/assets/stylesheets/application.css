@@ -124,8 +124,11 @@ img.test {
    -moz-transform: scale( 1.1 );
    opacity: 0.6;
   　-webkit-appearance:none;
-
   　}
+  input{
+　　border:none;
+　　background:none;
+　　}
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
