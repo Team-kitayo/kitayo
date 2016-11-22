@@ -31,7 +31,8 @@ class PagesController < ApplicationController
     @name = params[:n]
   #  Slack.chat_postMessage text: "------------------------------\n\n\n\n\n @#{@name} \n \"appointment\" is coming \n\n\n\n\n ------------------------------", username: "Kitayo_Notifier", channel: "#kitayo"
     notifier = Slack::Notifier.new('https://hooks.slack.com/services/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')
-    notifier.ping('-------------- @#{@name} \"appointment\" is coming --------------')
+    @massage = "@#{@name} \n \"appointment\" is coming"
+    notifier.ping('-------------- @#{@name} "appointment" is coming --------------')
     @hide_flg = true
   end
 end
