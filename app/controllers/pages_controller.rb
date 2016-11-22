@@ -8,13 +8,14 @@ class PagesController < ApplicationController
   def others
     # Slack.chat_postMessage text: "------------------------------\n\n\n\n\n \"Others\" is coming \n\n\n\n\n ------------------------------", username: "Kitayo_Notifier", channel: "#kitayo"
     notifier = Slack::Notifier.new('https://hooks.slack.com/services/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')
-    notifier.ping('------------------------------ "Others" is coming ------------------------------')
-    notifier.ping('test','others')
+    notifier.ping('--------------"Others" is coming --------------')
     @hide_flg = true
   end
 
   def inter
-   Slack.chat_postMessage text: "------------------------------\n\n\n\n\n \"Interviewer\" is coming \n\n\n\n\n ------------------------------", username: "Kitayo_Notifier", channel: "#kitayo"
+  #  Slack.chat_postMessage text: "------------------------------\n\n\n\n\n \"Interviewer\" is coming \n\n\n\n\n ------------------------------", username: "Kitayo_Notifier", channel: "#kitayo"
+   notifier = Slack::Notifier.new('https://hooks.slack.com/services/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')
+   notifier.ping('--------------"Interviewer" is coming --------------')
    @hide_flg = true
   end
 
@@ -22,13 +23,15 @@ class PagesController < ApplicationController
   end
 
   def noAppointment
-   Slack.chat_postMessage text: "------------------------------\n\n\n\n\n \"Non-appointment\" is coming \n\n\n\n\n ------------------------------", username: "Kitayo_Notifier", channel: "#kitayo"
+  #  Slack.chat_postMessage text: "------------------------------\n\n\n\n\n \"Non-appointment\" is coming \n\n\n\n\n ------------------------------", username: "Kitayo_Notifier", channel: "#kitayo"
    @hide_flg = true
   end
 
   def call
-   @hide_flg = true
-   @name = params[:n]
+    @name = params[:n]
   #  Slack.chat_postMessage text: "------------------------------\n\n\n\n\n @#{@name} \n \"appointment\" is coming \n\n\n\n\n ------------------------------", username: "Kitayo_Notifier", channel: "#kitayo"
+    notifier = Slack::Notifier.new('https://hooks.slack.com/services/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')
+    notifier.ping('-------------- @#{@name} \"appointment\" is coming --------------')
+    @hide_flg = true
   end
 end

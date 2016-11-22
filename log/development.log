@@ -12144,3 +12144,67 @@ Processing by PagesController#page1 as HTML
 Completed 200 OK in 151ms (Views: 147.9ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/pages/call" for ::1 at 2016-11-23 01:43:22 +0900
+Processing by PagesController#call as HTML
+  Rendering pages/call.html.erb within layouts/application
+  Rendered pages/_page4.html.erb (1412.1ms)
+  Rendered pages/call.html.erb within layouts/application (1418.9ms)
+Completed 200 OK in 1898ms (Views: 1824.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/call" for ::1 at 2016-11-23 01:43:51 +0900
+Processing by PagesController#call as HTML
+  Rendering pages/call.html.erb within layouts/application
+  Rendered pages/_page4.html.erb (33.0ms)
+  Rendered pages/call.html.erb within layouts/application (36.7ms)
+Completed 200 OK in 157ms (Views: 154.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/call" for ::1 at 2016-11-23 01:45:25 +0900
+Processing by PagesController#call as HTML
+  Rendering pages/call.html.erb within layouts/application
+  Rendered pages/_page4.html.erb (151.6ms)
+  Rendered pages/call.html.erb within layouts/application (155.6ms)
+Completed 200 OK in 1807ms (Views: 1802.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/call" for ::1 at 2016-11-23 01:45:57 +0900
+Processing by PagesController#call as HTML
+  Rendering pages/call.html.erb within layouts/application
+  Rendered pages/_page4.html.erb (4.2ms)
+  Rendered pages/call.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 249ms (Views: 246.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/call" for ::1 at 2016-11-23 01:46:09 +0900
+Processing by PagesController#call as HTML
+  Rendering pages/call.html.erb within layouts/application
+  Rendered pages/_page4.html.erb (60.0ms)
+  Rendered pages/call.html.erb within layouts/application (65.4ms)
+Completed 200 OK in 240ms (Views: 236.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/call" for ::1 at 2016-11-23 01:46:21 +0900
+Processing by PagesController#call as HTML
+  Rendering pages/call.html.erb within layouts/application
+  Rendered pages/_page4.html.erb (7.4ms)
+  Rendered pages/call.html.erb within layouts/application (10.8ms)
+Completed 200 OK in 163ms (Views: 156.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/call" for ::1 at 2016-11-23 01:46:24 +0900
+Processing by PagesController#call as HTML
+  Rendering pages/call.html.erb within layouts/application
+  Rendered pages/_page4.html.erb (11.0ms)
+  Rendered pages/call.html.erb within layouts/application (59.6ms)
+Completed 200 OK in 213ms (Views: 208.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/call" for ::1 at 2016-11-23 01:55:26 +0900
+Processing by PagesController#call as HTML
+  Rendering pages/call.html.erb within layouts/application
+  Rendered pages/_page4.html.erb (48.9ms)
+  Rendered pages/call.html.erb within layouts/application (88.6ms)
+Completed 200 OK in 1614ms (Views: 410.7ms | ActiveRecord: 0.0ms)
+
+
