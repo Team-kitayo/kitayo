@@ -41,8 +41,8 @@ p {
   }
 
 p {
-  color: white;
-
+  color: #003399;
+  font-family:  "Meiryo","Hiragino Kaku Gothic Pro","HiraKakuPro-W3","MS PGothic",sans-serif;
   font-size: 24px;
   text-align : center;
   }
