@@ -1,5 +1,5 @@
 require 'slack'
 
   Slack.configure do |config|
-    config.token = "xoxp-24048203477-44181035570-94543049536-108c1e8c5e0718f7bfad3dd654757f6b"
+    config.token = "xoxp-24048203477-44181035570-107862713365-f64ba882a65490090d6947af512a0e42"
 end
