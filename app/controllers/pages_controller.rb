@@ -12,7 +12,7 @@ class PagesController < ApplicationController
     @a = {
       color: "good"
     }
-    notifier.ping(@massage), attachments: [a]
+    notifier.ping @massage, attachments: [a]
     @hide_flg = true
   end
 
