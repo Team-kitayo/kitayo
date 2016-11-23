@@ -12208,3 +12208,26 @@ Processing by PagesController#call as HTML
 Completed 200 OK in 1614ms (Views: 410.7ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/pages/page1" for 127.0.0.1 at 2016-11-23 17:08:08 +0900
+Processing by PagesController#page1 as HTML
+  Rendering pages/page1.html.erb within layouts/application
+  Rendered pages/page1.html.erb within layouts/application (480.8ms)
+Completed 200 OK in 588ms (Views: 572.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/visit" for 127.0.0.1 at 2016-11-23 17:08:18 +0900
+Processing by PagesController#visit as HTML
+  Rendering pages/visit.html.erb within layouts/application
+  Rendered pages/_page2.html.erb (5.3ms)
+  Rendered pages/visit.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 65ms (Views: 61.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/appointment" for 127.0.0.1 at 2016-11-23 17:08:19 +0900
+Processing by PagesController#appointment as HTML
+  Rendering pages/appointment.html.erb within layouts/application
+  Rendered pages/_page3.html.erb (22.0ms)
+  Rendered pages/appointment.html.erb within layouts/application (26.7ms)
+Completed 200 OK in 78ms (Views: 72.3ms | ActiveRecord: 0.0ms)
+
+
