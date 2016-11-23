@@ -27,7 +27,15 @@ class PagesController < ApplicationController
   def noAppointment
   #  Slack.chat_postMessage text: "------------------------------\n\n\n\n\n \"Non-appointment\" is coming \n\n\n\n\n ------------------------------", username: "Kitayo_Notifier", channel: "#kitayo"
     notifier = Slack::Notifier.new('https://hooks.slack.com/services/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')
-    @massage = "------------------------------\n\n\n\n\n \"Non-appointment\" is coming \n\n\n\n\n ------------------------------"
+    # @massage = "------------------------------\n\n\n\n\n \"Non-appointment\" is coming \n\n\n\n\n ------------------------------"
+    @massage = {
+      "attachments": [
+        {
+        "text": "\"Non-appointment\" is coming",
+			  "color" : "#3E9DEF"
+        }
+      ]
+    }
     notifier.ping @massage
     @hide_flg = true
   end
