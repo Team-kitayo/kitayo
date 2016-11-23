@@ -12231,3 +12231,32 @@ Processing by PagesController#appointment as HTML
 Completed 200 OK in 78ms (Views: 72.3ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/pages/page1" for ::1 at 2016-11-23 23:58:43 +0900
+Processing by PagesController#page1 as HTML
+  Rendering pages/page1.html.erb within layouts/application
+  Rendered pages/page1.html.erb within layouts/application (3533.5ms)
+Completed 200 OK in 4439ms (Views: 4358.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page1" for ::1 at 2016-11-23 23:58:52 +0900
+Processing by PagesController#page1 as HTML
+  Rendering pages/page1.html.erb within layouts/application
+  Rendered pages/page1.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 45ms (Views: 42.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/others" for ::1 at 2016-11-23 23:58:55 +0900
+Processing by PagesController#others as HTML
+  Rendering pages/others.html.erb within layouts/application
+  Rendered pages/_page4.html.erb (3.5ms)
+  Rendered pages/others.html.erb within layouts/application (80.9ms)
+Completed 200 OK in 1737ms (Views: 117.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page1" for ::1 at 2016-11-23 23:59:00 +0900
+Processing by PagesController#page1 as HTML
+  Rendering pages/page1.html.erb within layouts/application
+  Rendered pages/page1.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 62ms (Views: 57.5ms | ActiveRecord: 0.0ms)
+
+
