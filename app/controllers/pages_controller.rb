@@ -32,7 +32,7 @@ class PagesController < ApplicationController
       "attachments": [
         {
         "text": "\"Non-appointment\" is coming",
-			  "color" : "#3E9DEF"
+			  "color": "#3E9DEF"
         }
       ]
     }
