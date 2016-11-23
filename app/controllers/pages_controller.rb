@@ -9,12 +9,7 @@ class PagesController < ApplicationController
     # Slack.chat_postMessage text: "------------------------------\n\n\n\n\n \"Others\" is coming \n\n\n\n\n ------------------------------", username: "Kitayo_Notifier", channel: "#kitayo"
     notifier = Slack::Notifier.new('https://hooks.slack.com/services/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')
     @massage = "------------------------------\n\n\n\n\n \"Others\" is coming \n\n\n\n\n ------------------------------"
-    @a = {
-      fallback: "------------------------------ \"Others\" is coming ------------------------------",
-      text: "------------------------------ \"Others\" is coming ------------------------------",
-      color: "good"
-    }
-    notifier.ping attachments: [@a]
+    notifier.ping @massage
     @hide_flg = true
   end
 
