@@ -81,12 +81,18 @@ img.link2 {
   }
 .name{
   height:40px;
+  padding-top: 0;
 }
 td{
-  font-size: 25px;
+  font-size: 30px;
   font-family:  "Meiryo","Hiragino Kaku Gothic Pro","arial","HiraKakuPro-W3","MS PGothic", sans-serif;
+  color: #DDDDDD;
+  padding-top: 0;
 }
-
+tr.name td p {
+    margin-top: -17px;
+    margin-bottom: 24px;
+}
 img.test {
   height: 100%;
   width:100px;
