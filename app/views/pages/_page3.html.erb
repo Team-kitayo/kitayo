@@ -2,30 +2,45 @@
   <p>You have an appointment with ....</p>
   <p class="jp">担当者をお選びください</p>
   <div class="button2">
-    <table>
-    <tr>
-    <td><%= link_to image_tag('Saito.png', :class => "link2"),'call?n=Saito' %></td>
-    <td><%= link_to image_tag('Takagi.png', :class => "link2"), 'call?n=Takagi' %></td>
-    <td><%= link_to image_tag('Shimura.png', :class => "link2"), 'call?n=Shimura' %></td>
-    <td><%= link_to image_tag('Takahashi.png', :class => "link2"),'call?n=Takahashi' %></td>
-    </tr>
-    <tr>
-    <td>Saito</td>
-    <td>Takagi</td>
-    <td>Shimura</td>
-    <td>Takahashi</td>
-    </tr>
-  　<tr>
-    <td><%= link_to image_tag('Tokuta.png', :class => "link2"), 'call?n=Tokuta' %></td>
-    <td><%= link_to image_tag('Kikuchi.png', :class => "link2"), 'call?n=Kikuchi' %></td>
-    <td><%= link_to image_tag('Matsuura.png', :class => "link2"),'call?n=matsuura' %></td>
-    <td><%= link_to image_tag('yosaku.png', :class => "link2"), 'call?n=Others' %></td>
-    <tr>
-    <td>Tokuta</td>
-    <td>Kikuchi</td>
-    <td>Matsuura</td>
-    <td>Others</td>
-    </tr>
-    </table>
+    <ul class="list">
+    <li class="img"><%= link_to image_tag('Saito.png', :class => "link2"),'call?n=Saito' %>
+    <ul><li class="text">Saito</li></ul>
+    </li>
+    </ul>
+    <ul class="list">
+    <li class="img"><%= link_to image_tag('Takagi.png', :class => "link2"), 'call?n=Takagi' %>
+    <ul><li class="text">Takagi</li></ul>
+    </li>
+    </ul>
+    <ul class="list">
+    <li class="img"><%= link_to image_tag('Shimura.png', :class => "link2"), 'call?n=Shimura' %>
+    <ul><li class="text">Shimura</li></ul>
+    </li>
+    </ul>
+    <ul class="list">
+    <li class="img"><%= link_to image_tag('Takahashi.png', :class => "link2"),'call?n=Takahashi' %>
+    <ul><li class="text">Takahashi</li></ul>
+    </li>
+    </ul>
+    <ul class="list">
+    <li class="img"><%= link_to image_tag('Tokuta.png', :class => "link2"), 'call?n=Tokuta' %>
+    <ul><li class="text">Tokuta</li></ul>
+    </li>
+    </ul>
+    <ul class="list">
+    <li class="img"><%= link_to image_tag('Kikuchi.png', :class => "link2"), 'call?n=Kikuchi' %>
+    <ul><li class="text">Kikuchi</li></ul>
+    </li>
+    </ul>
+    <ul class="list">
+    <li class="img"><%= link_to image_tag('Matsuura.png', :class => "link2"),'call?n=matsuura' %>
+    <ul><li class="text">Matsuura</li></ul>
+    </li>
+    </ul>
+    <ul class="list">
+    <li class="img"><%= link_to image_tag('yosaku.png', :class => "link2"), 'call?n=Others' %>
+    <ul><li class="text">Others</li></ul>
+    </li>
+    </ul>
   </div>
 </div>
