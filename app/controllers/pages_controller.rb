@@ -31,7 +31,7 @@ class PagesController < ApplicationController
     @massage = {
       "attachments": [
         {
-        "text": "\"Non-appointment\" is coming",
+        "text": "\n\n\"Non-appointment\" is coming\n\n",
 			  "color": "#3E9DEF"
         }
       ]
