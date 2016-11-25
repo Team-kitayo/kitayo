@@ -57,7 +57,7 @@ p.wait {
   font-family:  "Meiryo","Hiragino Kaku Gothic Pro","arial","HiraKakuPro-W3","MS PGothic",sans-serif;
   font-size: 24px;
   text-align : center;
-  padding-bottom: 30px;
+  padding-bottom: 100px;
   animation: fadeIn 2s ease 0s 1 normal;
   -webkit-animation: fadeIn 2s ease 0s 1 normal;
 }
