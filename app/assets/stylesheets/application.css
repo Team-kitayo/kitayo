@@ -149,8 +149,8 @@ img.test {
     -webkit-touch-callout:none;
     -webkit-tap-highlight-color:rgba(0, 0, 0, 0);
 }
-    .touchstyle { background-color:yellow;}←好きな色
-    .notouchstyle { background-color:transparent;}←好きな色
+    /*.touchstyle { background-color:yellow;}
+    .notouchstyle { background-color:transparent;}*/
 
   input{
 　　border:none;
