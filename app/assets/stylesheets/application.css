@@ -52,6 +52,23 @@ p.jp {
   font-size: 18px;
   text-align : center;
   }
+p.wait {
+  color: #DDDDDD;
+  font-family:  "Meiryo","Hiragino Kaku Gothic Pro","arial","HiraKakuPro-W3","MS PGothic",sans-serif;
+  font-size: 18px;
+  text-align : center;
+  animation: fadeIn 2s ease 0s 1 normal;
+  -webkit-animation: fadeIn 2s ease 0s 1 normal;
+}
+@keyframes fadeIn {
+    0% {opacity: 0}
+    100% {opacity: 1}
+}
+
+@-webkit-keyframes fadeIn {
+    0% {opacity: 0}
+    100% {opacity: 1}
+}
 
 /*  ボタン表示部  */
 
