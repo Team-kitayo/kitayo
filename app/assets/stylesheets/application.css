@@ -59,13 +59,6 @@ p.jp {
   padding-top: 80px;
   padding-bottom: 100px;
   }
-
-.button2 {
-  padding-top: 10px;
-  padding-bottom: 100px;
-  }
-
-
 /* 画像 */
 
 img.header_logo {
@@ -75,7 +68,7 @@ img.header_logo {
   }
 
 img.footer_logo {
-  margin-top: 72px;
+  margin-top: 90px;
   height: 15%;
   }
 
@@ -84,50 +77,43 @@ img.link {
   width: 20%;
   }
 img.link2 {
-  margin: 25px;
-  width: 15%;
+  width: 65%;
   }
-
-/*img.welcome {
-  height: 60%;
-  width:60%;
-  padding-left: 200px;
-  }*/
-
-/*img.welcome2 {
-  margin: 240px;
-  width: 40%;
-  }*/
-
-td{
-  padding:0;
 }
-
-
+td{
+  font-size: 30px;
+  font-family:  "Meiryo","Hiragino Kaku Gothic Pro","arial","HiraKakuPro-W3","MS PGothic", sans-serif;
+  color: #DDDDDD;
+  margin-left: 50px;
+}
+tr.name td p {
+    margin-top: -14px;
+    margin-bottom: 24px;
+}
 img.test {
   height: 100%;
   width:100px;
   }
-
 /* *.js */
 
 #content {
   position: relative;
-  width:1000px;
-  height:250px;
+  width:auto;
+  height:150px;
   overflow:hidden;
   padding-top: 0px;
   /*background:#eee;*/
   }
 #rect {
   position: absolute;
-  left:-50px;
-  top:50px;
-  /*background:#87d3ff;*/
-  width:50px;
-  padding:60px 0px;
-  text-align:center;
-  /*color:#fff;*/
+
+  }
+.welcome2{
+  width: 80%;
+}
+.welcome{
+  text-align: center;
+}
   }
   a:hover img {
    -webkit-transform: scale( 1.1 );
@@ -144,32 +130,3 @@ img.test {
 　　border:none;
 　　background:none;
 　　}
-/*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
- * listed below.
- *
- * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
- * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
- *
- * You're free to add application-wide styles to this file and they'll appear at the bottom of the
- * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
- * files in this directory. Styles in this file should be added after the last require_* statement.
- * It is generally better to create a new file per style scope.
- *
- *= require_tree .
- *= require_self
- *//*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
- * listed below.
- *
- * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
- * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
- *
- * You're free to add application-wide styles to this file and they'll appear at the bottom of the
- * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
- * files in this directory. Styles in this file should be added after the last require_* statement.
- * It is generally better to create a new file per style scope.
- *
- *= require_directory .
- *= require_self
- */

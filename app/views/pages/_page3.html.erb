@@ -1,7 +1,6 @@
 <div class="main">
   <p>You have an appointment with ....</p>
   <p class="jp">担当者をお選びください</p>
-  <div class="button2">
     <table>
     <tr>
     <td><%= link_to image_tag('Saito.png', :class => "link2"),'call?n=Saito' %></td>
@@ -9,23 +8,23 @@
     <td><%= link_to image_tag('Shimura.png', :class => "link2"), 'call?n=Shimura' %></td>
     <td><%= link_to image_tag('Takahashi.png', :class => "link2"),'call?n=Takahashi' %></td>
     </tr>
-    <tr>
-    <td>Saito</td>
-    <td>Takagi</td>
-    <td>Shimura</td>
-    <td>Takahashi</td>
+    <tr class="name">
+    <td><p>Saito</p></td>
+    <td><p>Takagi</p></td>
+    <td><p>Shimura</p></td>
+    <td><p>Takahashi</p></td>
     </tr>
-  　<tr>
+  　<tr >
     <td><%= link_to image_tag('Tokuta.png', :class => "link2"), 'call?n=Tokuta' %></td>
     <td><%= link_to image_tag('Kikuchi.png', :class => "link2"), 'call?n=Kikuchi' %></td>
     <td><%= link_to image_tag('Matsuura.png', :class => "link2"),'call?n=matsuura' %></td>
     <td><%= link_to image_tag('yosaku.png', :class => "link2"), 'call?n=Others' %></td>
-    <tr>
-    <td>Tokuta</td>
-    <td>Kikuchi</td>
-    <td>Matsuura</td>
-    <td>Others</td>
+    <tr class="name">
+    <td><p>Tokuta</p></td>
+    <td><p>Kikuchi</p></td>
+    <td><p>Matsuura</p></td>
+    <td><p>Others</p></td>
     </tr>
     </table>
-  </div>
+
 </div>
