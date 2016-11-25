@@ -79,7 +79,7 @@ p.waitjp {
     -webkit-tap-highlight-color:rgba(0, 0, 0, 0);
   }
 
-  a:hover button{ top:1px; left:1px; position:relative; }
+  a:hover { top:1px; left:1px; position:relative; }
 /* 画像 */
 
 img.header_logo {
