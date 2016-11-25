@@ -51,7 +51,7 @@ $(function(){
         // URLが空ではない場合
         if (url != '') {
             // フェードアウトしてから、取得したURLにリンクする
-            $('#wrapper').fadeOut(560);
+            $('#wrapper').fadeOut(480);
             setTimeout(function(){
                 location.href = url;
             }, 560);
