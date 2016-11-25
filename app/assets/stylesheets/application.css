@@ -111,7 +111,7 @@ img.test {
   height: 100%;
   width:100px;
   }
-
+a:hover img{ top:1px; left:1px; position:relative; }
 
 /* *.js */
 
