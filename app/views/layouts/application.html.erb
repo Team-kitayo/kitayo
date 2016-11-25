@@ -11,11 +11,7 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   </head>
   <body>
-    <script>
-      $(function(){
-      	$('body').fadeMover();
-      });
-    </script>
+    <div id="wrapper">
     <% if !defined?(@hide_flg) || !@hide_flg %>
       <div class="header">
         <%= image_tag 'kitayo_logo.png', :class => "header_logo" %>
@@ -27,5 +23,6 @@
         <%= image_tag 'logo.png', :class => "footer_logo" %>
       </div>
     <% end %>
+  </div>
   </body>
 </html>
