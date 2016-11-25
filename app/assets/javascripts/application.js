@@ -41,7 +41,7 @@ $(function(){
 
     // サイトアクセス時に非表示にしてから、フェードインさせる
     $('#wrapper').hide();
-    $('#wrapper').fadeIn(360);
+    $('#wrapper').fadeIn(560);
 
     // リンククリック時にフェードアウトしてから、画面遷移する
     $('a').click(function(){
@@ -58,7 +58,7 @@ $(function(){
 >>>>>>> refs/remotes/origin/master
             setTimeout(function(){
                 location.href = url;
-            }, 1000);
+            }, 680);
         }
         return false;
 
