@@ -54,7 +54,7 @@ $(function(){
             $('#wrapper').fadeOut(560);
             setTimeout(function(){
                 location.href = url;
-            }, 480);
+            }, 560);
         }
         return false;
 
