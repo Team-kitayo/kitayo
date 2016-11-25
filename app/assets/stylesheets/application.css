@@ -109,28 +109,6 @@ img.test {
   width:100px;
   }
 
-/*顔写真ページのリスト*/
-  .list {
-  list-style-type: none; /* リストマーカーを消す */
-  display: block;
-  width: 200px;
-  height: auto;
-  float: left;
-  }
-  .img img {
-  width: 120px;
-  height: 100%;
-  }
-  .text {
-  margin:0;
-  padding:0;
-  list-style-type: none;
-  color: #DDDDDD;
-  font-family:  "Meiryo","Hiragino Kaku Gothic Pro","arial","HiraKakuPro-W3","MS PGothic", sans-serif;
-  font-size: 18px;
-
-  }
-
 /* *.js */
 
 #content {
