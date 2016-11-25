@@ -33,7 +33,7 @@ class PagesController < ApplicationController
   def call
     $name = "#{params[:n]}"
     @property = "Appointment"
-    @color = "06A4E4"
+    @color = "00AA06"
     notifier.ping @massage
     @hide_flg = true
   end
