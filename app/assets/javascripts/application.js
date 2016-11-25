@@ -26,15 +26,16 @@
 //     }, 0)
 //     setTimeout("rect()", 300);//アニメーションを繰り返す間隔
 // }
-// window.onload = function() {
-//     var target = document.getElementById("test");
-//     target.addEventListener("touchstart",function(){
-//         this.className="touchstyle";
-//     }, false);
-//     target.addEventListener("touchend",function(){
-//         this.className="notouchstyle";
-//     }, false);
-// }
+
+window.onload = function() {
+    var target = document.getElementById("test");
+    target.addEventListener("touchstart",function(){
+        this.className="touchstyle";
+    }, false);
+    target.addEventListener("touchend",function(){
+        this.className="notouchstyle";
+    }, false);
+}
 
 /* Copyright (c) 2011 detelu (http://www.detelu.com)
  * Dual licensed under the MIT (http://www.opensource.org/licenses/mit-license.php)
