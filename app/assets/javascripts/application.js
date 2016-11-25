@@ -41,7 +41,7 @@ $(function(){
 
     // サイトアクセス時に非表示にしてから、フェードインさせる
     $('#wrapper').hide();
-    $('#wrapper').fadeIn(560);
+    $('#wrapper').fadeIn(480);
 
     // リンククリック時にフェードアウトしてから、画面遷移する
     $('a').click(function(){
@@ -51,10 +51,10 @@ $(function(){
         // URLが空ではない場合
         if (url != '') {
             // フェードアウトしてから、取得したURLにリンクする
-            $('#wrapper').fadeOut(720);
+            $('#wrapper').fadeOut(560);
             setTimeout(function(){
                 location.href = url;
-            }, 640);
+            }, 480);
         }
         return false;
 
