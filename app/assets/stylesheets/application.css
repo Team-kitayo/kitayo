@@ -36,38 +36,25 @@ html, body {
   }
 
 p {
-  margin: 0;
-  padding: 5px;
-  }
-
-p {
   color: #DDDDDD;
   font-family:  "Meiryo","Hiragino Kaku Gothic Pro","arial","HiraKakuPro-W3","MS PGothic", sans-serif;
   font-size: 22px;
   text-align : center;
   }
 p.jp {
-  color: #DDDDDD;
-  font-family:  "Meiryo","Hiragino Kaku Gothic Pro","arial","HiraKakuPro-W3","MS PGothic",sans-serif;
   font-size: 18px;
-  text-align : center;
   }
 p.waiteng {
-  color: #DDDDDD;
-  font-family:  "Meiryo","Hiragino Kaku Gothic Pro","arial","HiraKakuPro-W3","MS PGothic",sans-serif;
   font-size: 28px;
-  text-align : center;
   animation: fadeIn 2s ease 0s 1 normal;
   -webkit-animation: fadeIn 2s ease 0s 1 normal;
-}
+  }
 p.waitjp {
-  color: #DDDDDD;
-  font-family:  "Meiryo","Hiragino Kaku Gothic Pro","arial","HiraKakuPro-W3","MS PGothic",sans-serif;
   font-size: 19px;
-  text-align : center;
+  margin-top: 7px;
   animation: fadeIn 2s ease 0s 1 normal;
   -webkit-animation: fadeIn 2s ease 0s 1 normal;
-}
+  }
 
 @keyframes fadeIn {
     0% {opacity: 0}
