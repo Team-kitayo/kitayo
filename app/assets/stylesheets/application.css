@@ -55,9 +55,8 @@ p.jp {
 p.wait {
   color: #DDDDDD;
   font-family:  "Meiryo","Hiragino Kaku Gothic Pro","arial","HiraKakuPro-W3","MS PGothic",sans-serif;
-  font-size: 24px;
+  font-size: 40px;
   text-align : center;
-  padding-bottom: 100px;
   animation: fadeIn 2s ease 0s 1 normal;
   -webkit-animation: fadeIn 2s ease 0s 1 normal;
 }
@@ -112,7 +111,7 @@ img.test {
   height: 100%;
   width:100px;
   }
-a:hover img{ top:1px; left:1px; position:relative; }
+/*a:hover img{ top:1px; left:1px; position:relative; }*/
 
 /* *.js */
 
