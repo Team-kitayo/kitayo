@@ -28,7 +28,7 @@
 // }
 
 window.onload = function() {
-    var target = document.getElementById("test");
+    var target = document.getElementById("trim");
     target.addEventListener("touchstart",function(){
         this.className="touchstyle";
     }, false);
@@ -54,7 +54,7 @@ $(function(){
             $('#wrapper').fadeOut(480);
             setTimeout(function(){
                 location.href = url;
-            }, 560);
+            }, 584);
         }
         return false;
 

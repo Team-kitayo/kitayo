@@ -2,9 +2,9 @@
 <html>
   <head>
     <title>kitayo</title>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
     <%= csrf_meta_tags %>
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
     <meta name="apple-mobile-web-app-capable" content="yes">
@@ -12,17 +12,19 @@
   </head>
   <body>
     <div id="wrapper">
-    <% if !defined?(@hide_flg) || !@hide_flg %>
-      <div class="header">
-        <%= image_tag 'kitayo_logo.png', :class => "header_logo" %>
+      <% if !defined?(@hide_flg) || !@hide_flg %>
+        <div class="header">
+          <%= image_tag 'kitayo_logo.png', :class => "header_logo" %>
+        </div>
+      <% end %>
+      <div id="trim">
+        <%= yield %>
       </div>
-    <% end %>
-    <%= yield %>
-    <% if !defined?(@hide_flg) || !@hide_flg %>
-      <div class="footer">
-        <%= image_tag 'logo.png', :class => "footer_logo" %>
-      </div>
-    <% end %>
-  </div>
+      <% if !defined?(@hide_flg) || !@hide_flg %>
+        <div class="footer">
+          <%= image_tag 'logo.png', :class => "footer_logo" %>
+        </div>
+      <% end %>
+    </div>
   </body>
 </html>
