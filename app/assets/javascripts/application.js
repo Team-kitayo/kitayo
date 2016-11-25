@@ -51,7 +51,11 @@ $(function(){
         // URLが空ではない場合
         if (url != '') {
             // フェードアウトしてから、取得したURLにリンクする
+<<<<<<< HEAD
             $('#wrapper').fadeOut(960);
+=======
+            $('#wrapper').fadeOut(640);
+>>>>>>> refs/remotes/origin/master
             setTimeout(function(){
                 location.href = url;
             }, 1000);
