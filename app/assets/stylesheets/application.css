@@ -55,7 +55,7 @@ p.jp {
 p.waiteng {
   color: #DDDDDD;
   font-family:  "Meiryo","Hiragino Kaku Gothic Pro","arial","HiraKakuPro-W3","MS PGothic",sans-serif;
-  font-size: 30px;
+  font-size: 28px;
   text-align : center;
   animation: fadeIn 2s ease 0s 1 normal;
   -webkit-animation: fadeIn 2s ease 0s 1 normal;
@@ -63,7 +63,7 @@ p.waiteng {
 p.waitjp {
   color: #DDDDDD;
   font-family:  "Meiryo","Hiragino Kaku Gothic Pro","arial","HiraKakuPro-W3","MS PGothic",sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   text-align : center;
   animation: fadeIn 2s ease 0s 1 normal;
   -webkit-animation: fadeIn 2s ease 0s 1 normal;
