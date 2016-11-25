@@ -52,10 +52,18 @@ p.jp {
   font-size: 18px;
   text-align : center;
   }
-p.wait {
+p.waiteng {
   color: #DDDDDD;
   font-family:  "Meiryo","Hiragino Kaku Gothic Pro","arial","HiraKakuPro-W3","MS PGothic",sans-serif;
   font-size: 30px;
+  text-align : center;
+  animation: fadeIn 2s ease 0s 1 normal;
+  -webkit-animation: fadeIn 2s ease 0s 1 normal;
+}
+p.waitjp {
+  color: #DDDDDD;
+  font-family:  "Meiryo","Hiragino Kaku Gothic Pro","arial","HiraKakuPro-W3","MS PGothic",sans-serif;
+  font-size: 25px;
   text-align : center;
   animation: fadeIn 2s ease 0s 1 normal;
   -webkit-animation: fadeIn 2s ease 0s 1 normal;
