@@ -13541,3 +13541,119 @@ Processing by PagesController#visit as HTML
 Completed 200 OK in 263ms (Views: 217.8ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/pages/visit" for 192.168.1.6 at 2016-11-26 03:05:40 +0900
+Cannot render console from 192.168.1.6! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#visit as HTML
+  Rendering pages/visit.html.erb within layouts/application
+  Rendered pages/_page2.html.erb (106.1ms)
+  Rendered pages/visit.html.erb within layouts/application (116.3ms)
+Completed 200 OK in 669ms (Views: 658.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/appointment" for 192.168.1.6 at 2016-11-26 03:13:39 +0900
+Cannot render console from 192.168.1.6! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#appointment as HTML
+  Rendering pages/appointment.html.erb within layouts/application
+  Rendered pages/_page3.html.erb (253.6ms)
+  Rendered pages/appointment.html.erb within layouts/application (256.5ms)
+Completed 200 OK in 302ms (Views: 288.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/visit" for 192.168.1.6 at 2016-11-26 17:59:03 +0900
+Cannot render console from 192.168.1.6! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#visit as HTML
+  Rendering pages/visit.html.erb within layouts/application
+  Rendered pages/_page2.html.erb (42.9ms)
+  Rendered pages/visit.html.erb within layouts/application (75.9ms)
+Completed 200 OK in 412ms (Views: 227.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page1" for 192.168.1.6 at 2016-11-26 18:43:17 +0900
+Cannot render console from 192.168.1.6! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#page1 as HTML
+  Rendering pages/page1.html.erb within layouts/application
+  Rendered pages/page1.html.erb within layouts/application (893.7ms)
+Completed 200 OK in 963ms (Views: 946.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/visit" for 192.168.1.6 at 2016-11-26 18:43:21 +0900
+Cannot render console from 192.168.1.6! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#visit as HTML
+  Rendering pages/visit.html.erb within layouts/application
+  Rendered pages/_page2.html.erb (3.3ms)
+  Rendered pages/visit.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 47ms (Views: 42.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/appointment" for 192.168.1.6 at 2016-11-26 18:43:24 +0900
+Cannot render console from 192.168.1.6! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#appointment as HTML
+  Rendering pages/appointment.html.erb within layouts/application
+  Rendered pages/_page3.html.erb (12.8ms)
+  Rendered pages/appointment.html.erb within layouts/application (16.5ms)
+Completed 200 OK in 135ms (Views: 62.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page1" for 127.0.0.1 at 2016-11-26 19:07:01 +0900
+Processing by PagesController#page1 as HTML
+  Rendering pages/page1.html.erb within layouts/application
+  Rendered pages/page1.html.erb within layouts/application (1112.6ms)
+Completed 200 OK in 1238ms (Views: 1221.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/visit" for 127.0.0.1 at 2016-11-26 19:07:05 +0900
+Processing by PagesController#visit as HTML
+  Rendering pages/visit.html.erb within layouts/application
+  Rendered pages/_page2.html.erb (4.1ms)
+  Rendered pages/visit.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 49ms (Views: 46.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/appointment" for 127.0.0.1 at 2016-11-26 19:07:07 +0900
+Processing by PagesController#appointment as HTML
+  Rendering pages/appointment.html.erb within layouts/application
+  Rendered pages/_page3.html.erb (20.7ms)
+  Rendered pages/appointment.html.erb within layouts/application (23.6ms)
+Completed 200 OK in 80ms (Views: 76.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/appointment" for 127.0.0.1 at 2016-11-26 19:07:10 +0900
+Processing by PagesController#appointment as HTML
+  Rendering pages/appointment.html.erb within layouts/application
+  Rendered pages/_page3.html.erb (19.2ms)
+  Rendered pages/appointment.html.erb within layouts/application (23.4ms)
+Completed 200 OK in 80ms (Views: 77.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/visit" for 127.0.0.1 at 2016-11-27 04:00:45 +0900
+Processing by PagesController#visit as HTML
+  Rendering pages/visit.html.erb within layouts/application
+  Rendered pages/_page2.html.erb (137.8ms)
+  Rendered pages/visit.html.erb within layouts/application (177.4ms)
+Completed 200 OK in 1109ms (Views: 911.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/visit" for 127.0.0.1 at 2016-11-27 04:00:58 +0900
+Processing by PagesController#visit as HTML
+  Rendering pages/visit.html.erb within layouts/application
+  Rendered pages/_page2.html.erb (343.8ms)
+  Rendered pages/visit.html.erb within layouts/application (347.5ms)
+Completed 200 OK in 391ms (Views: 388.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/appointment" for 127.0.0.1 at 2016-11-27 04:01:01 +0900
+Processing by PagesController#appointment as HTML
+  Rendering pages/appointment.html.erb within layouts/application
+  Rendered pages/_page3.html.erb (208.5ms)
+  Rendered pages/appointment.html.erb within layouts/application (214.0ms)
+Completed 200 OK in 276ms (Views: 251.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/visit" for 127.0.0.1 at 2016-11-27 04:01:23 +0900
+Processing by PagesController#visit as HTML
+  Rendering pages/visit.html.erb within layouts/application
+  Rendered pages/_page2.html.erb (3.6ms)
+  Rendered pages/visit.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 58ms (Views: 53.4ms | ActiveRecord: 0.0ms)
+
+
