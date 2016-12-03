@@ -40,23 +40,41 @@ window.onload = function() {
 $(function(){
 
     // サイトアクセス時に非表示にしてから、フェードインさせる
-    $('#wrapper').hide();
-    $('#wrapper').fadeIn(480);
-
-    // リンククリック時にフェードアウトしてから、画面遷移する
-    $('a').click(function(){
-        // URLを取得する
-        var url = $(this).attr('href');
-
-        // URLが空ではない場合
-        if (url != '') {
-            // フェードアウトしてから、取得したURLにリンクする
-            $('#wrapper').fadeOut(480);
-            setTimeout(function(){
-                location.href = url;
-            }, 584);
-        }
-        return false;
-
+    // $('#wrapper').hide();
+    // $('#wrapper').fadeIn(480);
+    //
+    // // リンククリック時にフェードアウトしてから、画面遷移する
+    // $('a').click(function(){
+    //     // URLを取得する
+    //     var url = $(this).attr('href');
+    //
+    //     // URLが空ではない場合
+    //     if (url != '') {
+    //         // フェードアウトしてから、取得したURLにリンクする
+    //         $('#wrapper').fadeOut(480);
+    //         setTimeout(function(){
+    //             location.href = url;
+    //         }, 584);
+    //     }
+    //     return false;
+    // });
+    // $( '.modal' ).dialog({
+    //         modal: true,
+    //         autoOpen: false,
+    //         buttons: {
+    //             Ok: function() {
+    //                 $( this ).dialog( 'close');
+    //             }
+    //         }
+    //     });
+        // $('#modal-open').click(function() {
+        //             $('.modal').dialog('open');
+        //         });
+    $('.modal-open').click(function(){
+      $('.modal').fadeIn();
     });
+
+    $('#modal-close').unbind().click(function(){
+      $('.modal').fadeOut();
+      });
 });
