@@ -6,6 +6,7 @@ class ApplicationController < ActionController::Base
     @color
     @current = Time.now.to_i
     @massage = {
+      "link_names": "1",
       "attachments": [
         {
         "title": "@#{$name}",

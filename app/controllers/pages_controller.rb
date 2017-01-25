@@ -1,6 +1,6 @@
 class PagesController < ApplicationController
   def page1
-    $name = "Channel"
+    $name = "channel"
   end
 
   def visit
