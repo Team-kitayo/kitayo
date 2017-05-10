@@ -14240,3 +14240,49 @@ Processing by PagesController#page1 as HTML
 Completed 200 OK in 33ms (Views: 30.7ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/pages/visit" for 127.0.0.1 at 2017-05-10 21:01:07 +0900
+Processing by PagesController#visit as HTML
+  Rendering pages/visit.html.erb within layouts/application
+  Rendered pages/_page2.html.erb (22.5ms)
+  Rendered pages/visit.html.erb within layouts/application (33.2ms)
+Completed 200 OK in 232ms (Views: 219.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/appointment" for 127.0.0.1 at 2017-05-10 21:01:09 +0900
+Processing by PagesController#appointment as HTML
+  Rendering pages/appointment.html.erb within layouts/application
+  Rendered pages/_page3.html.erb (12.9ms)
+  Rendered pages/appointment.html.erb within layouts/application (16.5ms)
+Completed 200 OK in 50ms (Views: 47.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page1" for 127.0.0.1 at 2017-05-10 21:01:18 +0900
+Processing by PagesController#page1 as HTML
+  Rendering pages/page1.html.erb within layouts/application
+  Rendered pages/page1.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 40ms (Views: 37.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/visit" for 127.0.0.1 at 2017-05-10 21:06:10 +0900
+Processing by PagesController#visit as HTML
+  Rendering pages/visit.html.erb within layouts/application
+  Rendered pages/_page2.html.erb (24.9ms)
+  Rendered pages/visit.html.erb within layouts/application (37.3ms)
+Completed 200 OK in 413ms (Views: 400.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/appointment" for 127.0.0.1 at 2017-05-10 21:06:13 +0900
+Processing by PagesController#appointment as HTML
+  Rendering pages/appointment.html.erb within layouts/application
+  Rendered pages/_page3.html.erb (133.7ms)
+  Rendered pages/appointment.html.erb within layouts/application (136.0ms)
+Completed 200 OK in 169ms (Views: 167.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page1" for 127.0.0.1 at 2017-05-10 21:06:22 +0900
+Processing by PagesController#page1 as HTML
+  Rendering pages/page1.html.erb within layouts/application
+  Rendered pages/page1.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 34ms (Views: 32.4ms | ActiveRecord: 0.0ms)
+
+
