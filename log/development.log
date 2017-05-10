@@ -14410,3 +14410,26 @@ Processing by PagesController#page1 as HTML
 Completed 200 OK in 36ms (Views: 34.5ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/pages/visit" for 127.0.0.1 at 2017-05-10 21:59:56 +0900
+Processing by PagesController#visit as HTML
+  Rendering pages/visit.html.erb within layouts/application
+  Rendered pages/_page2.html.erb (26.8ms)
+  Rendered pages/visit.html.erb within layouts/application (35.9ms)
+Completed 200 OK in 237ms (Views: 218.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/appointment" for 127.0.0.1 at 2017-05-10 21:59:58 +0900
+Processing by PagesController#appointment as HTML
+  Rendering pages/appointment.html.erb within layouts/application
+  Rendered pages/_page3.html.erb (59.8ms)
+  Rendered pages/appointment.html.erb within layouts/application (62.6ms)
+Completed 200 OK in 218ms (Views: 213.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page1" for 127.0.0.1 at 2017-05-10 22:00:12 +0900
+Processing by PagesController#page1 as HTML
+  Rendering pages/page1.html.erb within layouts/application
+  Rendered pages/page1.html.erb within layouts/application (13.2ms)
+Completed 200 OK in 68ms (Views: 63.9ms | ActiveRecord: 0.0ms)
+
+
