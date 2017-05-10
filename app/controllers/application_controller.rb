@@ -16,6 +16,6 @@ class ApplicationController < ActionController::Base
         }
       ]
     }
-    notifier = Slack::Notifier.new('https://hooks.slack.com/services/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')
+    # notifier = Slack::Notifier.new('https://hooks.slack.com/services/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')
   end
 end
