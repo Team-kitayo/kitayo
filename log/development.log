@@ -14332,3 +14332,35 @@ Processing by PagesController#page1 as HTML
 Completed 200 OK in 83ms (Views: 79.4ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/pages/visit" for 127.0.0.1 at 2017-05-10 21:44:14 +0900
+Processing by PagesController#visit as HTML
+  Rendering pages/visit.html.erb within layouts/application
+  Rendered pages/_page2.html.erb (18.1ms)
+  Rendered pages/visit.html.erb within layouts/application (32.7ms)
+Completed 200 OK in 121ms (Views: 102.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/appointment" for 127.0.0.1 at 2017-05-10 21:44:16 +0900
+Processing by PagesController#appointment as HTML
+  Rendering pages/appointment.html.erb within layouts/application
+  Rendered pages/_page3.html.erb (26.4ms)
+  Rendered pages/appointment.html.erb within layouts/application (34.3ms)
+Completed 200 OK in 97ms (Views: 91.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/call?n=k.saito" for 127.0.0.1 at 2017-05-10 21:44:19 +0900
+Processing by PagesController#call as HTML
+  Parameters: {"n"=>"k.saito"}
+  Rendering pages/call.html.erb within layouts/application
+  Rendered pages/_page4.html.erb (7.3ms)
+  Rendered pages/call.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 686ms (Views: 59.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page1" for 127.0.0.1 at 2017-05-10 21:44:33 +0900
+Processing by PagesController#page1 as HTML
+  Rendering pages/page1.html.erb within layouts/application
+  Rendered pages/page1.html.erb within layouts/application (12.7ms)
+Completed 200 OK in 135ms (Views: 131.1ms | ActiveRecord: 0.0ms)
+
+
