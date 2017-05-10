@@ -14286,3 +14286,26 @@ Processing by PagesController#page1 as HTML
 Completed 200 OK in 34ms (Views: 32.4ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/pages/visit" for 127.0.0.1 at 2017-05-10 21:08:44 +0900
+Processing by PagesController#visit as HTML
+  Rendering pages/visit.html.erb within layouts/application
+  Rendered pages/_page2.html.erb (21.9ms)
+  Rendered pages/visit.html.erb within layouts/application (28.8ms)
+Completed 200 OK in 141ms (Views: 128.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/appointment" for 127.0.0.1 at 2017-05-10 21:08:46 +0900
+Processing by PagesController#appointment as HTML
+  Rendering pages/appointment.html.erb within layouts/application
+  Rendered pages/_page3.html.erb (13.3ms)
+  Rendered pages/appointment.html.erb within layouts/application (16.3ms)
+Completed 200 OK in 62ms (Views: 59.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/page1" for 127.0.0.1 at 2017-05-10 21:08:54 +0900
+Processing by PagesController#page1 as HTML
+  Rendering pages/page1.html.erb within layouts/application
+  Rendered pages/page1.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 88ms (Views: 76.4ms | ActiveRecord: 0.0ms)
+
+
