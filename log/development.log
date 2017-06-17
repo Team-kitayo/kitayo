@@ -14555,18 +14555,3 @@ Processing by PagesController#page1 as HTML
 Completed 200 OK in 59ms (Views: 51.9ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/pages/others" for 127.0.0.1 at 2017-06-16 19:57:14 +0900
-Processing by PagesController#others as HTML
-  Rendering pages/others.html.erb within layouts/application
-  Rendered pages/_page4.html.erb (20.4ms)
-  Rendered pages/others.html.erb within layouts/application (43.2ms)
-Completed 200 OK in 534ms (Views: 139.3ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/pages/page1" for 127.0.0.1 at 2017-06-16 19:57:28 +0900
-Processing by PagesController#page1 as HTML
-  Rendering pages/page1.html.erb within layouts/application
-  Rendered pages/page1.html.erb within layouts/application (18.1ms)
-Completed 200 OK in 116ms (Views: 112.5ms | ActiveRecord: 0.0ms)
-
-
